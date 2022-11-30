@@ -10,7 +10,7 @@ Desarrollo de un sistema de información que soporte la gestión de una tienda o
 |Juan Esteban Pupo Morales |Analista|
 |Jose Luis Demoya M |Product owner|
 |Michael Smith Collazos |Desarrollador|
-|Juan Carlos Toro|Scrum máster|
+|Juan Carlos Toro|Scrum master| 
 
 En este ciclo se realizará programación web haciendo uso de MERN, MongoDb, Express JS, React y NodeJS
 
