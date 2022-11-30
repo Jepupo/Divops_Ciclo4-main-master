@@ -2,7 +2,6 @@ import { model } from "mongoose";
 import Product from "../models/Product.js";
 //import fs from "fs-extra";
 
-
 export const getProducts = async (req, res) => {
   try {
     const products = await Product.find();
@@ -18,8 +17,7 @@ export const createProducts = async (req, res) => {
   
   try {
     
-    const { nombre, precio, cantidad } = req.body;
-    
+    const { nombre, precio, cantidad } = req.body;    
 
     const Newproduct = new Product({ nombre, precio, cantidad });
     res.set('Access-Control-Allow-Origin','*')
@@ -32,8 +30,7 @@ export const createProducts = async (req, res) => {
 };
 
 export const updateProducts = async (req, res) => {
-  try {
-  
+  try {  
     const updatedProduct = await Product.findByIdAndUpdate(
       req.params.id,
       req.body,
@@ -50,16 +47,6 @@ export const updateProducts = async (req, res) => {
 export const deleteProducts = async (req, res) => {
   try {
     const productRemoved = await Product.findByIdAndDelete(req.params.id);
-
-   /*  if (!productRemoved) {
-      return res.sendStatus(404);
-    } else {
-
-      if (productRemoved.image.public_id) {
-        await deleteImage(productRemoved.image.public_id);
-      }
-      return res.sendStatus(204);
-    } */
 
     return res.send(productRemoved)
   } catch (error) {
