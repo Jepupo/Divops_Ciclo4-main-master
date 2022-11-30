@@ -6,19 +6,14 @@ Desarrollo de un sistema de información que soporte la gestión de una tienda o
 
 | Integrante | Rol |
 |------------|-----|
-|Daniel Felipe Varon Molina |Administrador de BD|
-|Carlos Julián Reyes Piraligua |Analista|
-|Diana Camila Capera Conde |Product owner|
-|Ivan Daniel Silva Oyola |Desarrollador|
-|Alvaro Andres Angarita Ramirez|Scrum máster|
+|Kristhian Fabian Lozano  |Administrador de BD|
+|Juan Esteban Pupo Morales |Analista|
+|Jose Luis Demoya M |Product owner|
+|Michael Smith Collazos |Desarrollador|
+|Juan Carlos Toro|Scrum máster|
 
 En este ciclo se realizará programación web haciendo uso de MERN, MongoDb, Express JS, React y NodeJS
 
-#Pull request de Andres
-
-#Pull request de Carlos
-
-#Pull request de Camila
 
 Todos los derechos reservados DivOps 2022 &copy;
 
