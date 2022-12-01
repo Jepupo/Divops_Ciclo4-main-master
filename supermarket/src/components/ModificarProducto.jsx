@@ -69,7 +69,7 @@ export function ModificarProducto() {
 
   function eliminarProducto(id) {
        
-    fetch(`mongodb+srv://123user:123user@cluster0.idro7k1.mongodb.net/?retryWrites=true&w=majority/products/${id}`,{
+    fetch(`http://localhost:3001/products/${id}`,{
             method:"DELETE",
             headers: {
             'Content-Type': 'application/json',
