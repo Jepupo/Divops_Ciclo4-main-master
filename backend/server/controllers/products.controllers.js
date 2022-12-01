@@ -1,6 +1,5 @@
 import { model } from "mongoose";
 import Product from "../models/Product.js";
-//import fs from "fs-extra";
 
 export const getProducts = async (req, res) => {
   try {
