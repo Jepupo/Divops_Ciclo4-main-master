@@ -46,7 +46,7 @@ export const updateProducts = async (req, res) => {
 export const deleteProducts = async (req, res) => {
   try {
     const productRemoved = await Product.findByIdAndDelete(req.params.id);
-
+    res.set('Access-Control-Allow-Origin','*')
     return res.send(productRemoved)
   } catch (error) {
     return res.status(500).json({ message: error.message });
