@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 //import { MONGODB_URI } from './config.js'
 
-const MONGODB_URI = "mongodb+srv://divops:Mintic123@cluster1.sscc1o8.mongodb.net/divops";
+const MONGODB_URI = "mongodb+srv://123user:123user@cluster0.idro7k1.mongodb.net/?retryWrites=true&w=majority";
 
 export async function DBconnection() {
   try {
