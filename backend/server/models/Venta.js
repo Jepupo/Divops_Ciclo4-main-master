@@ -3,12 +3,12 @@ import mongoose from 'mongoose';
 const ventaSchema = new mongoose.Schema({
     fecha: {
         type: 'string',
-        required: true,
+        required: false,
         trim: true
     },
     valor: {
         type: Number,
-        required: true,
+        required: false,
         trim: true
     }
 })
